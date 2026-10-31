@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lead Logger</string>
+
+    <string name="login_title">Lead Logger — Employee Sign In</string>
+    <string name="login_email_hint">Company email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign in</string>
+    <string name="login_error_generic">Sign in failed. Check your email/password and connection.</string>
+
+    <string name="consent_title">Before we start monitoring</string>
+    <string name="consent_body"><![CDATA[
+By continuing, you agree that this company device will run Lead Logger, which:\n\n
+• Reads this device\'s call log (number, time, duration, direction) and SMS messages (sender/recipient number, time, and message body)\n
+• Uploads that data to the company\'s lead-tracking system so follow-ups on customer calls and texts aren\'t missed\n
+• Shows a permanent notification whenever monitoring is active — it cannot run hidden\n
+• Is used only for work-related lead follow-up, on a device your employer owns or has assigned to you for work\n\n
+You can ask your manager to stop monitoring or sign out at any time from the app\'s home screen, which immediately stops all capture and uploads.
+    ]]></string>
+    <string name="consent_accept">I understand and agree</string>
+    <string name="consent_decline">Decline</string>
+
+    <string name="permissions_title">Permissions needed</string>
+    <string name="permissions_body">Lead Logger needs Call Log and SMS permissions to do its job. Grant them to continue.</string>
+    <string name="permissions_grant">Grant permissions</string>
+
+    <string name="home_title">Lead Logger</string>
+    <string name="home_status_active">Monitoring active</string>
+    <string name="home_status_inactive">Monitoring stopped</string>
+    <string name="home_last_sync">Last synced: %1$s</string>
+    <string name="home_signed_in_as">Signed in as %1$s</string>
+    <string name="home_stop">Stop monitoring &amp; sign out</string>
+    <string name="home_start">Start monitoring</string>
+
+    <string name="notification_channel_name">Lead Logger monitoring</string>
+    <string name="notification_title">Lead Logger is active</string>
+    <string name="notification_text">Syncing call log and SMS for lead follow-up</string>
+</resources>
